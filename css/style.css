@@ -6,6 +6,10 @@ body {
   background: #1D1D1D;
 }
 
+a.active {
+  color: #FFE000;
+}
+
 p {
   line-height: 1.6em;
 }
