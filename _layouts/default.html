@@ -10,12 +10,11 @@
   <body>
     <header>
       <div class="container">
-         <nav>
-  {% for item in site.data.navigation %}
-    <a href="{{ item.link %}" {% if item.highlight %}style="border: 1px solid red;"{% endif %} {% if item.link == page.url %}class="active"{% endif %}>
-      {{ item.name }}
-    </a>
-  {% endfor %}
+       <nav class="main-nav">
+  <ul>
+    <li><a href="/" {% if page.url == "/" %}class="active"{% endif %}>Home</a></li>
+    <li><a href="/blog.html" {% if page.url == "/blog.html" %}class="active"{% endif %}>Blog</a></li>
+  </ul>
 </nav>
         <h1><a href="/">Bakery<strong>Store</strong></a></h1>
       </div>
