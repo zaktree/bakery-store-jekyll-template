@@ -6,22 +6,17 @@
     <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,700" media="all">
   </head>
-  <nav>
+ 
+  <body>
+    <header>
+      <div class="container">
+         <nav>
   {% for item in site.data.navigation %}
     <a href="{{ item.link %}" {% if item.highlight %}style="border: 1px solid red;"{% endif %} {% if item.link == page.url %}class="active"{% endif %}>
       {{ item.name }}
     </a>
   {% endfor %}
 </nav>
-  <body>
-    <header>
-      <div class="container">
-        <nav class="main-nav">
-          <ul>
-            <li><a href="/">Home</a></li>
-            <li><a href="/blog.html">Blog</a></li>
-          </ul>
-        </nav>
         <h1><a href="/">Bakery<strong>Store</strong></a></h1>
       </div>
     </header>
