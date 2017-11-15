@@ -2,7 +2,9 @@
   name: Home
 - link: /about/
   name: About
+  highlight: true
 - link: /services
   name: Services
+  highlight: true
 - link: /contact/
   name: Contact
