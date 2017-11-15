@@ -6,10 +6,6 @@ body {
   background: #1D1D1D;
 }
 
-a.active {
-  color: #FFE000;
-}
-
 p {
   line-height: 1.6em;
 }
@@ -215,4 +211,8 @@ label {
 input[type="submit"] {
   margin: 30px 0 0 0;
   font-size: 20px;
+}
+
+a.active {
+  color: #FFE000;
 }
